@@ -31,5 +31,9 @@ export PATH_TO_DEB="/tmp/optic/workspaces/local-cli/dist/deb/api_$(npm view $INP
 echo $PATH_TO_DEB
 # ls $PATH_TO_DEB
 # du $PATH_TO_DEB
+# /bin/bash
+ deb-s3 upload -e --access-key-id=$INPUT_AWS_ACCESS_KEY_ID --secret-access-key=$INPUT_AWS_SECRET_ACCESS_KEY --bucket $INPUT_BUCKET_NAME $INPUT_PACKAGE_NAME --preserve-versions $PATH_TO_DEB
+ls /tmp/optic/workspaces/local-cli/dist/deb/
+echo "PATH_TO_DEB: "$PATH_TO_DEB
 /bin/bash
-# deb-s3 upload -e --access-key-id=$INPUT_AWS_ACCESS_KEY_ID --secret-access-key=$INPUT_AWS_SECRET_ACCESS_KEY --bucket $INPUT_BUCKET_NAME $INPUT_PACKAGE_NAME --preserve-versions $PATH_TO_DEB
+echo "PATH_TO_DEB after invoking new shell: "$PATH_TO_DEB

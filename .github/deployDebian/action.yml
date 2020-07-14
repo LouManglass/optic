@@ -13,6 +13,9 @@ inputs:
   PACKAGE_NAME:
     description: "PACKAGE_NAME"
     required: true
+  NPM_PACKAGE_NAME:
+    description: "NPM_PACKAGE_NAME"
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
