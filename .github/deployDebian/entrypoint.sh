@@ -27,7 +27,7 @@ echo "Installing Ruby"
 apt install ruby-full -y
 gem install deb-s3
 cd /tmp/optic/workspaces/local-cli/dist/deb/
-export PATH_TO_DEB="/tmp/optic/workspaces/local-cli/dist/deb/api_$(npm view $INPUT_NPM_PACKAGE_NAME version)-1_amd64.deb"
+export PATH_TO_DEB="/tmp/optic/workspaces/local-cli/dist/deb/api_8.2.1-1_amd64.deb"
 echo $PATH_TO_DEB
 # ls $PATH_TO_DEB
 # du $PATH_TO_DEB
