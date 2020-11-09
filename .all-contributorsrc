@@ -1,6 +1,6 @@
 {
-  "projectName": "Optic",
-  "projectOwner": "opticdev",
+  "projectName": "optic",
+  "projectOwner": "LouManglass",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -36,7 +36,17 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "taraedits",
+      "name": "taraedits",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/52361229?v=4",
+      "profile": "https://github.com/taraedits",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
