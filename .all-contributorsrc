@@ -1,6 +1,6 @@
 {
-  "projectName": "Optic",
-  "projectOwner": "opticdev",
+  "projectName": "optic",
+  "projectOwner": "LouManglass",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -36,7 +36,17 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "gaurav",
+      "name": "Gaurav Vaidya",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/23979?v=4",
+      "profile": "http://www.ggvaidya.com/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
