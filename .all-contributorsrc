@@ -1,6 +1,6 @@
 {
-  "projectName": "Optic",
-  "projectOwner": "opticdev",
+  "projectName": "optic",
+  "projectOwner": "LouManglass",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -36,7 +36,18 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "trulyronak",
+      "name": "Ronak Shah",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9388431?v=4",
+      "profile": "https://twitter.com/trulyronak",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
