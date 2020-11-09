@@ -1,6 +1,6 @@
 {
-  "projectName": "Optic",
-  "projectOwner": "opticdev",
+  "projectName": "optic",
+  "projectOwner": "LouManglass",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -36,7 +36,18 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "JaapRood",
+      "name": "Jaap van Hardeveld",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/857549?v=4",
+      "profile": "http://www.jaaprood.nl",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
