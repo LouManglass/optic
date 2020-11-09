@@ -1,6 +1,6 @@
 {
-  "projectName": "Optic",
-  "projectOwner": "opticdev",
+  "projectName": "optic",
+  "projectOwner": "LouManglass",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -36,7 +36,17 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "notnmeyer",
+      "name": "Nate Meyer",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/672246?v=4",
+      "profile": "https://github.com/notnmeyer",
+      "contributions": [
+        "code"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
