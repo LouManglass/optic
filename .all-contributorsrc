@@ -1,6 +1,6 @@
 {
-  "projectName": "Optic",
-  "projectOwner": "opticdev",
+  "projectName": "optic",
+  "projectOwner": "LouManglass",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -36,7 +36,17 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "matthewhudson",
+      "name": "Matthew Hudson",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/320194?v=4",
+      "profile": "http://hudson.dev",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
